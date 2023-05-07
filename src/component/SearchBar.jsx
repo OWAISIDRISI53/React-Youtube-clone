@@ -13,11 +13,11 @@ const SearchBar = () => {
   };
   return (
     <form
-      className="relative flex items-center w-[70%] sm:w-1/2 md:w-1/3"
+      className="relative flex items-center w-[70%] sm:w-1/2 md:w-1/3 rounded-full"
       onSubmit={submitHandler}
     >
       <input
-        className="py-2 px-4 outline-none bg-white rounded-md w-full"
+        className="py-2 px-4 outline-none bg-white rounded-full w-full"
         type="text"
         placeholder="Search..."
         value={searchTerm}

@@ -1,11 +1,11 @@
 import React from "react";
 import {
   demoThumbnailUrl,
-  demoVideoUrl,
+  // demoVideoUrl,
   demoVideoTitle,
   demoChannelTitle,
-  demoChannelUrl,
-  demoProfilePicture,
+  // demoChannelUrl,
+  // demoProfilePicture,
 } from "../utils/constant";
 import { Link } from "react-router-dom";
 
