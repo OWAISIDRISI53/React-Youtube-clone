@@ -29,7 +29,7 @@ const Feed = () => {
             {selectedCategory} <span className="text-red-700">Videos</span>
           </div>
         </div>
-        {videos !== null && <Videos videos={videos} />}
+        {videos !== null && <Videos videos={videos} LgCol={3} />}
       </div>
     </main>
   );

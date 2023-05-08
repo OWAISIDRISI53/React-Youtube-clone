@@ -18,7 +18,7 @@ const SearchFeed = () => {
         Search Results for <span className="text-red-600">{searchTerm}</span>{" "}
         videos
       </div>
-      <div>{videos !== null && <Videos videos={videos} />}</div>
+      <div>{videos !== null && <Videos videos={videos} LgCol={3} />}</div>
     </main>
   );
 };

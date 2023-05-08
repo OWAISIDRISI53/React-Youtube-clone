@@ -6,6 +6,7 @@ import SearchFeed from "./component/SearchFeed";
 import ChannelDetail from "./component/ChannelDetail";
 
 function App() {
+  // const theme = 'white'
   return (
     <Router>
       <div className="bg-black pb-11">

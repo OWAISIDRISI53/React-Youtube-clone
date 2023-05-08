@@ -33,7 +33,7 @@ const ChannelDetail = () => {
       </div>
       <ChannelCard channelDetail={channelDetail} marginTop="-mt-24" />
       <div className="container mx-auto">
-        <Videos videos={videos} />
+        <Videos videos={videos} LgCol={3} />
       </div>
     </div>
   );

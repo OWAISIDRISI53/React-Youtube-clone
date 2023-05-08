@@ -10,8 +10,8 @@ export const categories = [
     { name: 'Podcast', icon: <i className="fa-solid fa-podcast"></i>, },
     { name: 'Gaming', icon: <i className="fa-solid fa-headset"></i>, },
     { name: 'Sport', icon: <i className="fa-solid fa-volleyball"></i>, },
-    { name: 'Fashion', icon: <i className="fa-solid fa-volleyball"></i>, },
-    { name: 'Gym', icon: <i className="fa-solid fa-volleyball"></i>, },
+    { name: 'Learning', icon: <i class="fa-solid fa-lightbulb"></i>, },
+    { name: 'Gym', icon: <i class="fa-solid fa-dumbbell"></i>, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
